@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#box-1{
+    background-color: hsl(263, 55%, 52%);
+    width: 520px;
+    height: 282px;
+    border-radius: 10px;
+}
+
+#box-2{
+    background-color: hsl(217, 19%, 35%);
+    width: 255px;
+    height: 282px;
+    border-radius: 10px;
+}
+
+#box-3{
+    background-color: blue;
+    width: 255px;
+    height: 266px;
+    position: absolute;
+    margin-top: 19em;
+    border-radius: 10px;
+}
+
+#box-4{
+    background-color: hsl(219, 29%, 14%);
+    width: 540px;
+    height: 266px;
+    position: absolute;
+    margin-top: 19em;
+    margin-left: 17em;
+    border-radius: 10px;
+}
+
+#box-5{
+    background-color: white;
+    width: 255px;
+    height: 572px;
+    position: absolute;
+    margin-left: 52em;
+    border-radius: 10px;
+}
