@@ -1,47 +1,123 @@
 body{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     gap: 1em;
+    background-color: #F2F2F2;
 }
 
-#box-1{
-    background-color: hsl(263, 55%, 52%);
-    width: 520px;
+#column-1{
+    display: flex;
+    flex-direction: column;
+}
+
+#row-1{
+    display: flex;
+    flex-direction: row;
+}
+
+#daniel-clifford{
+    width: 540px;
     height: 282px;
-    border-radius: 10px;
+    background-color: hsl(263, 55%, 52%);
+    margin-right: 30.5px;
+    margin-bottom: 24px;
+    border-radius: 15px;
 }
 
-#box-2{
-    background-color: hsl(217, 19%, 35%);
+#daniel-clifford #profile{
+    display: flex;
+    flex-direction: row;
+}
+
+#daniel-clifford #profile #name{
+    width: 150px;
+    height: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+#jonathan-walters{
     width: 255px;
     height: 282px;
-    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+    margin-right: 30px;
+    border-radius: 15px;
 }
 
-#box-3{
-    background-color: blue;
+#jonathan-walters #profile{
+    display: flex;
+    flex-direction: row;
+}
+
+#jonathan-walters #profile #name{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+#row-2{
+    display: flex;
+    flex-direction: row;
+}
+
+#jeanette-harmon{
     width: 255px;
     height: 266px;
-    position: absolute;
-    margin-top: 19em;
-    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    margin-right: 30px;
+    border-radius: 15px;
 }
 
-#box-4{
-    background-color: hsl(219, 29%, 14%);
+#jeanette-harmon #profile{
+    display: flex;
+    flex-direction: row;
+}
+
+#jeanette-harmon #profile #name{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+#patrick-abrams{
     width: 540px;
     height: 266px;
-    position: absolute;
-    margin-top: 19em;
-    margin-left: 17em;
-    border-radius: 10px;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 15px;
 }
 
-#box-5{
-    background-color: white;
+#patrick-abrams #profile{
+    display: flex;
+    flex-direction: row;
+}
+
+#patrick-abrams #profile #name{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+#column-2{
+    display: flex;
+    flex-direction: column;
+}
+
+#kira-whittle{
     width: 255px;
     height: 572px;
-    position: absolute;
-    margin-left: 52em;
-    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
 }
+
+#kira-whittle #profile{
+    display: flex;
+    flex-direction: row;
+}
+
+#kira-whittle #profile #name{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
