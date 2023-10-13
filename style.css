@@ -53,6 +53,14 @@ img{
     padding-top: 5px;
 }
 
+#daniel-clifford #profile #background{
+    position: absolute;
+    border-radius: 0%;
+    margin-left: 320px;
+    opacity: 0.3;
+    z-index: 0.5;
+}
+
 #daniel-clifford #quote{
     width: 476px;
     height: 72px;
@@ -60,7 +68,7 @@ img{
     margin-bottom: 10px;
     font-size: 20px;
     color: hsl(0, 0%, 100%);
-    background-image: url("/images/bg-pattern-quotation.svg");
+    /* position: absolute; */
 }
 
 #daniel-clifford #paragraph{
