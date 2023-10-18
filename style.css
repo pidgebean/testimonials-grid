@@ -5,7 +5,8 @@ body{
     gap: 1em;
     background-color: #F2F2F2;
     margin: 110px;
-    margin-left: 200px;
+    /* margin-left: 40%; */
+
 }
 
 img{
@@ -42,6 +43,10 @@ img{
     margin-left: 20px;
     margin-bottom: 10px;
     color: white;
+}
+
+#daniel-clifford #profile #daniel-img{
+    border: 2px solid white;
 }
 
 #daniel-clifford #profile #name{
@@ -95,6 +100,10 @@ img{
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
+}
+
+#jonathan-walters #profile #jonathan-img{
+    border: 2px solid white;
 }
 
 #jonathan-walters #profile #name{
@@ -185,6 +194,10 @@ img{
     padding: 20px;
 }
 
+#patrick-abrams #profile #patrick-img{
+    border: 2px solid white;
+}
+
 #patrick-abrams #profile #name{
     display: flex;
     flex-direction: column;
@@ -258,4 +271,168 @@ img{
     padding-left: 20px;
 }
 
+@media (max-width: 700px) {
+    body{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: middle;
+        align-items: middle;
+        /* margin-left: 10%; */
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
 
+    #row-1, #row-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #daniel-clifford{
+        width: 327px;
+        height: 444px;
+    }
+
+    #daniel-clifford #profile #background{
+        position: absolute;
+        border-radius: 0%;
+        margin-left: 180px;
+        opacity: 0.5;
+        z-index: 0.5;
+    }    
+
+    #daniel-clifford #quote{
+        width: 263px;
+        height: 120px;
+    }
+
+    #daniel-clifford #paragraph{
+        width: 247px;
+        height: 180px;
+    }
+
+    #jonathan-walters{
+        width: 327px;
+        height: 240px;
+        /* padding-bottom: 30px; */
+        margin-bottom: 30px;
+    }
+
+    #jonathan-walters #quote{
+        width: 263px;
+        height: 48px;
+    }
+
+    #jonathan-walters #paragraph{
+        width: 263px;
+        height: 72px;
+    }
+
+    #jeanette-harmon{
+        width: 327px;
+        height: 222px;
+        margin-bottom: 20px;
+    }
+
+    #jeanette-harmon #quote{
+        width: 263px;
+        height: 48px;
+    }
+
+    #jeanette-harmon #paragraph{
+        width: 263px;
+        height: 54px;
+    }
+
+    #patrick-abrams{
+        width: 327px;
+        height: 384px;
+    }
+
+    #patrick-abrams #paragraph{
+        width: 263px;
+        height: 144px;
+    }
+
+    #patrick-abrams #quote{
+        width: 263px;
+        height: 120px;
+    }
+
+    #kira-whittle{
+        width: 327px;
+        height: 438px;
+    }
+
+    #kira-whittle #quote{
+        width: 263px;
+        height: 48px;
+    }
+
+    #kira-whittle #paragraph{
+        width: 263px;
+        height: 270px;
+    }
+
+}
+
+@media (min-width: 360px){
+    body{
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 375px){
+    body{
+        margin-left: 6%;
+    }
+}
+
+@media (min-width: 390px){
+    body{
+        margin-left: 8%;
+    }
+}
+
+@media (min-width: 412px){
+    body{
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 540px){
+    body{
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 700px){
+    body{
+        margin-left: 0px;
+        margin-top: 50%;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        /* margin-top: 20px; */
+        margin-top: 30px;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+}
+
+@media (min-width: 1280px){
+    body{
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1500px){
+    body{
+        margin-left: 15%;
+        /* margin-top: 100px; */
+    }
+}
