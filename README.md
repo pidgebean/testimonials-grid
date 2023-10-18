@@ -55,6 +55,5 @@ It doesn't quite look right on the ipad screen - the content is right on the bor
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@apidgebean](https://www.frontendmentor.io/profile/pidgebean)
 - Github - [@pidgebean](https://github.com/pidgebean)
