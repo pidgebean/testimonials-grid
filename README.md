@@ -9,7 +9,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
-- [](#)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -27,8 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop View
 ![desktop view](/finished/desktop-view.png)
-#
+
+Mobile View
 ![mobile view](/finished/mobile-view.png)
 
 ### Links
